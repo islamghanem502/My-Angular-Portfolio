@@ -1,0 +1,19 @@
+[
+    { "name": "Python" },
+    { "name": "Flask" },
+    { "name": "Node.js" },
+    { "name": "Express.js" },
+    { "name": "JavaScript" },
+    { "name": "HTML/CSS" },
+    { "name": "MongoDB" },
+    { "name": "MySQL" },
+    { "name": "REST API" },
+    { "name": "JWT Authentication" },
+    { "name": "Git & GitHub" },
+    { "name": "Linux" },
+    { "name": "TensorFlow" },
+    { "name": "scikit-learn" },
+    { "name": "OpenCV" },
+    { "name": "Machine Learning" },
+    { "name": "Problem Solving (C++/Python)" }
+]

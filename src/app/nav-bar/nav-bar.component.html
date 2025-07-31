@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg bg-primary px-3 py-2">
+    <div class="container d-flex justify-content-between align-items-center">
+        <a class="navbar-brand fw-bold text-white fs-5" routerLink="/">
+            Islam Ghanem
+        </a>
+
+        <div class="d-flex gap-4 align-items-center">
+            <div class="nav-links">
+                @for (item of menuItems; track item.label) {
+                    <a class="text-white text-decoration-none position-relative px-2 py-1"
+                       [routerLink]="item.link"
+                       routerLinkActive="active-link"
+                       [routerLinkActiveOptions]="{ exact: item.exact }">
+                        {{ item.label }}
+                    </a>
+                }
+            </div>
+            
+            <app-social-media />
+        </div>
+    </div>
+</nav>

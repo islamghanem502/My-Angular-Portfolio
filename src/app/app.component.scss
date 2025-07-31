@@ -1,0 +1,18 @@
+#rootMainBox {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  // Uses viewport height instead of 100%
+    
+    main {
+        padding: 2rem 0;  // Adds proper spacing for content
+    }
+    
+    #rootFooter {
+        margin-top: auto;
+    }
+}
+
+// Optional: Add smooth scrolling behavior
+html {
+    scroll-behavior: smooth;
+}

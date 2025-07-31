@@ -1,0 +1,87 @@
+#aboutMeMainBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+#aboutMeLeftBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 20rem;
+    max-width: 35rem;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+#aboutMeLeftBox h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #212529;
+    margin: 0;
+    line-height: 1.2;
+}
+
+#aboutMeLeftBox h4 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #6c757d;
+    margin: 0;
+}
+
+#aboutMeLeftBox p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #495057;
+    margin: 0;
+    max-width: 28rem;
+}
+
+.profile-pic-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic-img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    #aboutMeMainBox {
+        gap: 3rem;
+        padding: 2rem 1rem;
+        flex-direction: column-reverse;
+    }
+    
+    #aboutMeLeftBox {
+        min-width: unset;
+        width: 100%;
+        padding: 1rem;
+    }
+    
+    .profile-pic-img {
+        width: 250px;
+        height: 250px;
+    }
+    
+    #aboutMeLeftBox h1 {
+        font-size: 2rem;
+    }
+    
+    #aboutMeLeftBox h4 {
+        font-size: 1.1rem;
+    }
+    
+    #aboutMeLeftBox p {
+        font-size: 1rem;
+    }
+}

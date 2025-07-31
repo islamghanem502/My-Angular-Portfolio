@@ -1,0 +1,18 @@
+[
+    
+    {
+        "title": "Waste Classification using CNN",
+        "description": "A deep learning project for classifying images of waste into metal, glass, plastic, paper, or trash using TensorFlow and OpenCV.",
+        "link": "https://github.com/TwoMindsOneCode/Waste-Classification"
+    },
+    {
+        "title": "Body Fat Predictor",
+        "description": "A machine learning model built using the Random Forest algorithm to predict body fat percentage from health metrics.",
+        "link": "https://github.com/TwoMindsOneCode/Body-Fat-using-ML"
+    },
+    {
+        "title": "Linear Equation Solver",
+        "description": "A C++ console program that solves systems of linear equations using the Gaussian Elimination method.",
+        "link": "https://github.com/islamghanem502/Gaussian-Elimination-in-Cpp"
+    }
+]
