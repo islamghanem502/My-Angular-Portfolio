@@ -2,14 +2,6 @@
 
 A personal portfolio website built with [Angular](https://angular.io/) to showcase my projects, skills, and background as a developer.
 
-## 🔗 Live Demo
-
-> (Put your deployed site link here - e.g., GitHub Pages, Firebase Hosting, etc.)
-
-## 📸 Screenshots
-
-> (Optional: Add screenshots of the website to preview the UI)
-
 ## 📁 Features
 
 - 🧑‍💻 About Me section
